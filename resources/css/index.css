@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 #header {
     font-family: sans-serif;
     text-align: center;
@@ -12,11 +16,14 @@
 
 #header p {
     font-size: 20px;
+    font-weight: lighter;
 }
 
 .navbar {
     overflow: hidden;
     background-color: #07192f;
+    font-family: sans-serif;
+    font-weight: lighter;
 }
 
 .navbar a {
@@ -33,10 +40,13 @@
 }
 
 .navbar a:hover {
-    background-color: gray;
-    color: black;
+    color: lightpink;
 }
 
-#vantajs {
-    width: auto; height: 600px; margin-bottom: 10px;
-  }
+#content {
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    color: #28292b;
+    padding: 100px;
+}
