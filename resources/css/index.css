@@ -1,22 +1,22 @@
-.header {
-    font-family: monospace;
+#header {
+    font-family: sans-serif;
     text-align: center;
-    background: mediumaquamarine;
     color: white;
-    padding: 25px;
+    padding: 200px;
 }
 
-.header h1 {
-    font-size: 40px;
+#header h1 {
+    font-size: 70px;
+    font-weight: lighter;
 }
 
-.header p {
+#header p {
     font-size: 20px;
 }
 
 .navbar {
     overflow: hidden;
-    background-color: gray;
+    background-color: #07192f;
 }
 
 .navbar a {
@@ -36,3 +36,7 @@
     background-color: gray;
     color: black;
 }
+
+#vantajs {
+    width: auto; height: 600px; margin-bottom: 10px;
+  }

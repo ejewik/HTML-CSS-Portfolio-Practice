@@ -3,9 +3,12 @@
 <head>
     <title>Emily's Personal Portfolio</title>
     <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.birds.min.js"></script>
+
 </head>
 <body>
-    <div class="header">
+    <div id="header">
       <h1>Emily Jewik</h1>
       <p>My personal portfolio!</p>
     </div>
@@ -16,5 +19,19 @@
         <a href="#" class="right">Github</a>
         <a href="#" class="right">Linkedin</a>
     </div>
+
+    <script>
+        VANTA.BIRDS({
+          el: "#header",
+          /* more options (Uncomment) */
+          //birdSize: 1.50,
+          //wingSpan: 21.00,
+          //speedLimit: 4.00,
+          //separation: 32.00,
+          //alignment: 33.00,
+          //cohesion: 33.00,
+          //quantity: 2.00
+        });
+        </script>
 </body>
 </html>
