@@ -52,3 +52,17 @@ body {
     color: #28292b;
     padding: 100px;
 }
+
+#content img {
+    padding-right: 10px;
+    text-align: center;
+}
+
+#content a {
+    color: #28292b;
+    text-decoration: none;
+}
+
+#content a:hover {
+    color: gray;
+}
