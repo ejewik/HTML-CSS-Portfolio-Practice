@@ -53,13 +53,33 @@ body {
     padding: 100px;
 }
 
+#content h1 {
+    color: #07192f
+}
+
+#content h2 {
+    color: #28292b;
+}
+
+#content h3 {
+    color: #505157;
+}
+
+#content ul {
+    color: #505157
+}
+
 #content img {
     padding-right: 10px;
     text-align: center;
 }
 
+#content p {
+    color: #07192f
+}
+
 #content a {
-    color: #28292b;
+    color: palevioletred;
     text-decoration: none;
 }
 
