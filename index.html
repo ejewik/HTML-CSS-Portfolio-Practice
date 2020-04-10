@@ -5,6 +5,7 @@
     <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
     <script src="https://www.vantajs.com/dist/vanta.birds.min.js"></script>
+    <script src="show-screenshots-button.js"></script>
 
 </head>
 <body>
@@ -31,20 +32,40 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <h2>Personal Projects</h2>
             <h3>Volunteer Tracker iOS App (Voluntracker) </h3>
-            <p>Voluntracker is an app that helps the user track their volunteer activities
-                and donations, and export them to a pdf with ease. Developed with UIKit and SimplePDF.
-                Currently refactoring project for code readability and feedback from user reviews. 
-            </p>
+            <ul>
+                <li>Designed iOS app Voluntracker where users can record their volunteer hours and donations and export their activities to a pdf</li>
+                <li>Downloaded by over 3000 users on the Apple Store with 4.4 star rating</li>
+                <li>Developed with UIKit and SimplePDF frameworks in Swift/XCode</li>
+                <li>Currently refactoring project for code readability and feedback from user reviews</li>
+            </ul>
             <br>
-            <a href="https://apps.apple.com/us/app/voluntracker-hours-donation/id1424421012">See it on the app store!</a>
+            <a href="https://apps.apple.com/us/app/voluntracker-hours-donation/id1424421012">Click to see it on the app store!</a>
             <br>
-            <a href="https://github.com/ejewik/voluntracker-app">Check out the ongoing refactor code here!</a>
+            <a href="https://github.com/ejewik/voluntracker-app">Click to check out the ongoing refactor code here!</a>
             <br>
             <br>
-            <img src="resources/pictures/app store screenshot 1.jpg" alt="App Screenshot 1" style="width:225px;height:400px;">
-            <img src="resources/pictures/app store screenshot 2.jpg" alt="App Screenshot 2" style="width:225px;height:400px;">
-            <img src="resources/pictures/app store screenshot 3.jpg" alt="App Screenshot 3" style="width:225px;height:400px;">
-            <img src="resources/pictures/app store screenshot 4.jpg" alt="App Screenshot 4" style="width:225px;height:400px;">
+            <button id="showButton" onclick="showScreenshots()">show app screenshots</button>
+            <br>
+            <br>
+            <div id="screenshots">
+              <img src="resources/pictures/app store screenshot 1.jpg" alt="App Screenshot 1" style="width:225px;height:400px;">
+              <img src="resources/pictures/app store screenshot 2.jpg" alt="App Screenshot 2" style="width:225px;height:400px;">
+              <img src="resources/pictures/app store screenshot 3.jpg" alt="App Screenshot 3" style="width:225px;height:400px;">
+              <img src="resources/pictures/app store screenshot 4.jpg" alt="App Screenshot 4" style="width:225px;height:400px;">
+            </div>
+            <h3>UCSD Info Reddit Bot</h3>
+            <ul>
+                <li>Built Reddit bot that allows users to learn more about University of California San Diego</li>
+                <li>Replied to users with information and fun facts about UCSD on the Reddit website</li>
+                <li>Implemented with partner and developed with praw package and Reddit API in Python</li>
+            </ul>
+            <h2>Open Source Contributions</h2>
+            <h3>Covid-19 Tracker App</h3>
+            <ul>
+                <li>Coronavirus Tracker iOS app with maps and charts to track locations and statistics with data provided by Johns Hopkins University</li>
+                <li>Contributed Spanish translation to set of localizable strings for language accessibility</li>
+            </ul>
+            <a href="https://github.com/mhdhejazi/CoronaTracker">Click to check out the project here!</a>
         </div>
 
         <script>
