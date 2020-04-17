@@ -91,3 +91,14 @@ body {
     display: none;
 }
 
+#footer {
+    background-color: #07192f;
+    font-family: sans-serif;
+    color: #f1f4f7;
+    text-align: center;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
