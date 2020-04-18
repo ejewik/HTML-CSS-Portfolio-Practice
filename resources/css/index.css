@@ -96,7 +96,8 @@ body {
     font-family: sans-serif;
     color: #f1f4f7;
     text-align: center;
-    
+    padding-left: 150px;
+    padding-right: 150px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
